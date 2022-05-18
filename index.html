@@ -1,0 +1,26 @@
+<!--[if lt IE 10]>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="ieHack" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<!DOCTYPE html>
+<html lang="en">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="./public/css/reset.min.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!--[if lt IE 10]>
+      <script src="./static/lib/es5-shim-min.js"></script>
+      <script src="./static/lib/es5-sham-min.js"></script>
+    <![endif]-->
+  </body>
+</html>
